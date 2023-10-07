@@ -5,7 +5,8 @@ export default function About() {
 
       <div className="pic_holder">
         <img
-          src="\images\278620689_534838054648438_2615070036300136368_n.jpg"
+        // eslint-disable-next-line
+  src="\images\278495017_308699898064887_7618075920024263592_n.webp"
           className="mypic"
           alt=""
         />

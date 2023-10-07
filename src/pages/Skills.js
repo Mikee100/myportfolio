@@ -4,7 +4,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-import { FaSwift } from "react-icons/fa";
+
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
@@ -46,11 +46,7 @@ function Skills() {
           <FaBootstrap className="fa" />
           <p className="p3">BOOTSTRAP</p>{" "}
         </li>
-        <li>
-          {" "}
-          <FaSwift className="fa" />
-          <p className="p3">SWIFT</p>{" "}
-        </li>
+        
       </ul>
     </div>
   );

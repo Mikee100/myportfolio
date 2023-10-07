@@ -1,30 +1,35 @@
-import React from "react";
+import React, { useRef }  from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import emailjs from "emailjs-com";
+import emailjs from "emailjs-com"
 
 const Contacts = () => {
-  function sendEmail(e) {
-    e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
 
+  const form = useRef();
+  
+    function sendEmail(e) {
+    e.preventDefault(); //This is important, i'm not sure why, but the email won't send without it
+    
     emailjs
       .sendForm(
         "service_a911eb5",
         "template_ye9c297",
-        e.target,
+        form.current,
         "KeePPXIGkpTcoiTBJ"
       )
       .then(
         (result) => {
-          window.location.reload(); //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+          window.location.reload(); 
+          //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior)
+        
         },
         (error) => {
           console.log(error.text);
+          
         }
       );
   }
-
   const handleClickScroll = () => {
     const element = document.getElementById("container_home");
     if (element) {
@@ -73,14 +78,36 @@ const Contacts = () => {
     }
   };
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   return (
+    
     <div className="container_contacts" id="container_contacts">
       <h2 className="contact_hd">Contact me</h2>
 
-      <form onSubmit={sendEmail}>
-        <input type="text" placeholder="Name" className="name_field" />
-        <input type="email" placeholder="Email" className="email_field" />
-        <input type="text" placeholder="Messsage" className="message_field" />
+      <form  ref={form} onSubmit={sendEmail}>
+        <input type="text" placeholder="Name" className="name_field"  name="to_name"   
+/>
+        <input type="email" placeholder="Email" className="email_field" name="from_name" 
+     />
+        <input type="text" placeholder="Messsage" className="message_field"  name="message" 
+       />
         <button className="send"> Send Message </button>
       </form>
       <div className="socialmedia"></div>
@@ -135,6 +162,7 @@ const Contacts = () => {
 
         <p className="copyright"> &copy;Copyright Shalene </p>
       </div>
+     
     </div>
   );
 };

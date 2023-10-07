@@ -8,7 +8,7 @@ export default function Projects() {
 <div className='project_1' >
  
  <a href='https://github.com/Mikee100/utilitybank' target='blank' >
-    <img src='/images/bank1.jpg' className='bankpic1'  alt=''  /> 
+    <img src='/images/bank1.jpg' className='bank1'  alt=''  /> 
 </a>
 
     <p className='yr' >2020</p>

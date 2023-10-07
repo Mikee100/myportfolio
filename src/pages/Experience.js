@@ -8,6 +8,7 @@ export default function Experience() {
       <h2 className="exp_hd"> Education and Work Experience </h2>
       <div className="education">
         <h2 className="edu_hd">Education</h2>
+        {/* 
         <small className="small_list_primary">
           Primary school:
           <ul>
@@ -15,7 +16,7 @@ export default function Experience() {
             <li>Kiambu Primary(2005-2008)</li>
           </ul>
         </small>
-
+*/}
         <small className="small_list_high">
           High school:
           <ul>

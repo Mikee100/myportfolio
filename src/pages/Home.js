@@ -28,7 +28,7 @@ export default function Home() {
 
       <button
         className="resume"
-        src="\images\4_5823542149441916402.pdf"
+       
         target="blank"
       >
         {" "}
@@ -40,12 +40,20 @@ export default function Home() {
       </button>
 
       <img
-        src=".\images\278620689_534838054648438_2615070036300136368_n.jpg"
+      // eslint-disable-next-line
+        src="\images\278495017_308699898064887_7618075920024263592_n.webp"
         className="pic_home"
-        alt=""
+        alt="Shalene"
       />
 
       <div class="container">
+        <div className="github">
+               <a target="blank" href="https://github.com/Mikee100">
+          <FaGithub className="git_icon" />
+     </a>
+        </div>
+
+
         <div class="box">
           <div class="title">
             <span class="block"></span>

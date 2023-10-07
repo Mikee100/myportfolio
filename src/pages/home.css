@@ -64,7 +64,7 @@
 
   .nav-li {
     position: relative;
-    left: 40rem;
+    left: 35rem;
     display: flex;
     flex-direction: row;
     color: black;
@@ -351,6 +351,30 @@
       rgb(109, 91, 91)
     );
   }
+  .github{
+    position: fixed;
+
+    left: 3.1rem; 
+    top: 3rem; 
+    transform: translate(-50%, -50%); 
+    width: 100px; 
+    height: 100px; 
+    background-color: black; 
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%); 
+  }
+  .git_icon{
+    position: absolute;
+    font-size: 1.7rem;
+    top: 1rem;
+    left: 1rem;
+    color: white;
+    border: none;
+  }
+  .github:hover{
+    background-color: grey;
+    cursor: pointer;
+  }
+
   .name {
     position: absolute;
     top: 27rem;
@@ -384,8 +408,8 @@
   }
   .resume {
     position: absolute;
-    top: 26rem;
-    left: 25rem;
+    top: 24rem;
+    left: 20rem;
   }
   .resume:hover {
     padding: 20px;
@@ -393,8 +417,8 @@
   }
   .hireme {
     position: absolute;
-    top: 26rem;
-    left: 32rem;
+    top: 24rem;
+    left: 28rem;
   }
   .hireme:hover {
     padding: 20px;
@@ -403,7 +427,7 @@
   .pic_home {
     object-fit: cover;
     top: 10rem;
-    left: 50rem;
+    left: 40rem;
     height: 50%;
     width: 30%;
     position: absolute;
@@ -701,9 +725,9 @@
   }
   .about_desc {
     position: absolute;
-    top: 15rem;
-    left: 35rem;
-    height: 27rem;
+    top: 10rem;
+    left: 31rem;
+    height: 30rem;
     width: 40rem;
     font-size: 16px;
     background-color: azure;
@@ -803,13 +827,13 @@ ul {
 }
 .small_list_high {
   position: absolute;
-  top: 9.6rem;
+  top: 3rem;
   left: 2rem;
   font-size: 21px;
 }
 .small_list_uni {
   position: absolute;
-  top: 17rem;
+  top: 10rem;
   left: 2rem;
   font-size: 21px;
 }
@@ -900,8 +924,8 @@ ul {
   position: absolute;
   flex-direction: row;
 
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 20px;
 }
 .list_skills li {
   background-color: rgb(31, 30, 30);
@@ -931,7 +955,7 @@ ul {
 }
 .list_skills li .p3 {
   position: absolute;
-  top: 25.5rem;
+  top: 25.0rem;
   font-size: 18px;
 }
 
@@ -956,7 +980,7 @@ ul {
     flex-direction: row;
 
     grid-template-columns: repeat(9, 1fr);
-    grid-gap: 35px;
+    grid-gap: 28px;
   }
   .list_skills li .p2 {
     position: absolute;
@@ -990,6 +1014,13 @@ ul {
   left: 10rem;
 }
 .bankpic1 {
+  position: absolute;
+  max-width: 92%;
+  min-height: 72%;
+  top: 1rem;
+  left: 1rem;
+}
+.bank1 {
   position: absolute;
   max-width: 92%;
   min-height: 72%;
