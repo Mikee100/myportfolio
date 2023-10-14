@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-
+import { FaGithub } from "react-icons/fa";
 import "./home.css"
 import {FaBars} from "react-icons/fa"
 import {FaTimes} from "react-icons/fa"
@@ -57,6 +57,11 @@ element.scrollIntoView({ block: "end" });
         <div>
            
       
+           <div className="github">
+               <a target="blank" href="https://github.com/Mikee100">
+          <FaGithub className="git_icon" />
+     </a>
+        </div>
             <ul className={Mobile ? "nav-links-mobile":"nav-ul"} onClick={ ()=> setMobile(false)  } >
  <li className="nav-li"  onClick={handleClickScroll} >Home</li> 
  <li className="nav-li"   onClick={handleClickScroll2}  >About</li> 

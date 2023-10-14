@@ -21,14 +21,16 @@ export default function Home() {
       });
     }
   };
-
+  const openResume = () => {
+    window.open('/images/008129426.pdf');
+  };
   return (
     <div className="container_home" id="container_home">
       <Navbar />
 
       <button
         className="resume"
-       
+        onClick={openResume}
         target="blank"
       >
         {" "}
@@ -41,17 +43,13 @@ export default function Home() {
 
       <img
       // eslint-disable-next-line
-        src="\images\278495017_308699898064887_7618075920024263592_n.webp"
+        src="/images/IMG-20231013-WA0012.jpg"
         className="pic_home"
         alt="Shalene"
       />
 
       <div class="container">
-        <div className="github">
-               <a target="blank" href="https://github.com/Mikee100">
-          <FaGithub className="git_icon" />
-     </a>
-        </div>
+       
 
 
         <div class="box">
@@ -69,7 +67,7 @@ export default function Home() {
           <ul className="media_icons_home">
             <li>
               {" "}
-              <a target="blank" href="https://github.com/Mikee100/utilitybank">
+              <a target="blank" href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA==">
                 {" "}
                 <FaInstagram className="faicon" />
               </a>
@@ -82,7 +80,7 @@ export default function Home() {
             </li>
             <li>
               {" "}
-              <a target="blank" href="https://github.com/Mikee100/utilitybank">
+              <a target="blank" href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 {" "}
                 <FaLinkedin className="faicon" />
               </a>{" "}
@@ -90,6 +88,7 @@ export default function Home() {
           </ul>
         </div>
       </div>
+      
     </div>
   );
 }

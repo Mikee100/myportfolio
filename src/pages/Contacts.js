@@ -140,7 +140,7 @@ const Contacts = () => {
           <p>Socials</p>
           <li>
             {" "}
-            <a target="blank" href="https://github.com/Mikee100/utilitybank">
+            <a target="blank" href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA==">
               {" "}
               <FaInstagram className="faicon" />
             </a>
@@ -153,7 +153,7 @@ const Contacts = () => {
           </li>
           <li>
             {" "}
-            <a target="blank" href="https://github.com/Mikee100/utilitybank">
+            <a target="blank" href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               {" "}
               <FaLinkedin className="faicon" />
             </a>{" "}

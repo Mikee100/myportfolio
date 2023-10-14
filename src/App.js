@@ -18,13 +18,13 @@ import Projects from './pages/Projects';
   <BrowserRouter>
     <main>
 
- <Navbar />
+
 <Home />
 <About />
 <Experience />
 <Skills />
 <Contacts />
-<Projects />
+<Projects /> 
 
 
 
@@ -39,6 +39,7 @@ import Projects from './pages/Projects';
 
 </Routes>
 
+<Navbar />
  </main>
  </BrowserRouter>
 
