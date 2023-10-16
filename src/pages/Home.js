@@ -51,6 +51,22 @@ export default function Home() {
       <div class="container">
        
 
+      <div class="banter-loader">
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+  <div class="banter-loader__box"></div>
+</div>
+
+
+
+
+
 
         <div class="box">
           <div class="title">

@@ -5,8 +5,8 @@ export default function About() {
 
       <div className="pic_holder">
         <img
-        // eslint-disable-next-line
-  src="/images/IMG-20231013-WA0009.jpg"
+          // eslint-disable-next-line
+          src="/images/IMG-20231013-WA0009.jpg"
           className="mypic"
           alt=""
         />
@@ -23,13 +23,15 @@ export default function About() {
         <div className="myabout_desc">
           <p>
             {" "}
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.{" "}
+            As a project management student with a passion for technology,
+            particularly in software development, I am continuously seeking new
+            challenges to expand my skill set. My expertise in organizing and
+            executing projects from start to finish has enabled me to excel in
+            various roles. 💻 Additionally, as a self-taught front-end
+            developer, I am dedicated to staying up to date with the latest
+            technology and software development trends. I thrive on finding
+            innovative solutions to complex problems and delivering high-quality
+            results that surpass expectations.{" "}
           </p>
         </div>
       </div>
