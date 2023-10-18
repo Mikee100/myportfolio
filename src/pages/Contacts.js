@@ -3,6 +3,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com"
+import "../pages/projcont.css";
 
 const Contacts = () => {
 

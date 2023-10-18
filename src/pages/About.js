@@ -1,3 +1,5 @@
+import "../pages/about.css";
+
 export default function About() {
   return (
     <div className="container_about" id="container_about">

@@ -1,0 +1,152 @@
+/************* About page   *****************************/
+.container_about {
+    height: 61rem;
+    width: 100%;
+    top: 59rem;
+    background-color: white;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  }
+  .list_icons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 1rem;
+    font-size: 20px;
+    list-style-type: none;
+    left: -1rem;
+  }
+  .list_icons li {
+    position: relative;
+    height: 0.9rem;
+    width: 1rem;
+    border-radius: 60%;
+  
+    margin: 5px;
+  }
+  
+  .about_hd {
+    position: absolute;
+    top: 1rem;
+    left: 10rem;
+    color: grey;
+    font-size: 22px;
+  }
+  .about_desc {
+    position: absolute;
+    top: 33rem;
+    left: 0rem;
+    height: 27rem;
+    width: 25rem;
+    font-size: 16px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  .hd_hi {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+  }
+  
+  .myabout_desc {
+    height: 20rem;
+    width: 23rem;
+    top: 6rem;
+    left: 2rem;
+    font-size: 20px;
+    position: absolute;
+  }
+  .pic_holder {
+    height: 27rem;
+    border: 3px solid white;
+    top: 4rem;
+    left: 0.5rem;
+    width: 25rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 5px 5px 5px;
+  }
+  .mypic {
+    object-fit: cover;
+    height: 80%;
+    width: 91%;
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .container_about {
+      position: absolute;
+      height: 50rem;
+      width: 100%;
+      top: 59rem;
+    }
+    .about_hd {
+      position: absolute;
+      top: 1rem;
+      left: 35rem;
+      color: grey;
+      font-size: 25px;
+    }
+    .about_desc {
+      position: absolute;
+      top: 10rem;
+      left: 31rem;
+      height: 30rem;
+      width: 40rem;
+      font-size: 16px;
+      background-color: azure;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+    }
+  
+    .hd_hi {
+      position: absolute;
+      top: 3rem;
+      left: 2rem;
+    }
+  
+    .myabout_desc {
+      height: 20rem;
+      width: 37rem;
+      top: 5rem;
+      left: 2rem;
+      font-size: 20px;
+      position: absolute;
+    }
+  
+    .pic_holder {
+      height: 30rem;
+      border: 3px solid white;
+      top: 10rem;
+      left: 5rem;
+      width: 25rem;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: rgba(50, 50, 93, 0.23) 0 5px 5px 5px;
+    }
+    .mypic {
+      object-fit: cover;
+      height: 80%;
+      width: 91%;
+      position: absolute;
+      top: 2rem;
+      left: 1rem;
+    }
+  }
+  

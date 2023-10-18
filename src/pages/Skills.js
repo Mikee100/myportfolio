@@ -4,7 +4,7 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaJsSquare } from "react-icons/fa";
 import { FaJava } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
-
+import "../pages/skillexp.css"
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";

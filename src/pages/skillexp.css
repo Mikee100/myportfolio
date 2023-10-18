@@ -1,0 +1,221 @@
+
+/************* Experience section  *********************/
+.container_experience {
+    height: 59rem;
+    width: 100%;
+    top: 120rem;
+    background-color: #e9d5a1;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  }
+  .exp_hd {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: black;
+    font-size: 23px;
+  }
+  .edu_hd {
+    position: absolute;
+    color: grey;
+    top: 1rem;
+    left: 1rem;
+  }
+  .education {
+    position: absolute;
+    top: 4rem;
+    left: 0.4rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: azure;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    justify-content: flex-start;
+  }
+  .small_list_primary {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    font-size: 21px;
+  }
+  ul {
+    position: absolute;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    height: 4rem;
+    width: 20rem;
+    color: grey;
+  }
+  .small_list_high {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    font-size: 21px;
+  }
+  .small_list_uni {
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+    font-size: 21px;
+  }
+  .work {
+    position: absolute;
+    top: 32rem;
+    left: 0.4rem;
+    height: 25rem;
+    width: 25rem;
+    background-color: azure;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    justify-content: flex-start;
+  }
+  .work_hd {
+    position: absolute;
+    color: grey;
+    top: 1rem;
+    left: 1rem;
+    font-size: 25px;
+  }
+  .small_work {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    font-size: 21px;
+  }
+  
+  .list {
+    font-weight: 500;
+    color: black;
+  }
+  
+  @media (min-width: 1024px) {
+    .container_experience {
+      height: 59rem;
+      width: 100%;
+      top: 109rem;
+    }
+  
+    .exp_hd {
+      position: absolute;
+      top: 1rem;
+      left: 25rem;
+      color: grey;
+      font-size: 20x;
+    }
+    .education {
+      position: absolute;
+      top: 4rem;
+      left: 20rem;
+      height: 25rem;
+      width: 35rem;
+    }
+    .work {
+      position: absolute;
+      top: 30rem;
+      left: 20rem;
+      height: 25rem;
+      width: 35rem;
+    }
+  }
+  
+  /**********Skills Section   *********/
+  .container_skills {
+    height: 33rem;
+    width: 100%;
+    top: 179rem;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  }
+  .hd_skills {
+    position: absolute;
+    top: 1rem;
+    font-size: 35px;
+    color: grey;
+    left: 11rem;
+  }
+  .list_skills {
+    top: 4rem;
+    left: -2rem;
+    list-style-type: none;
+    display: grid;
+    position: absolute;
+    flex-direction: row;
+  
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+  }
+  .list_skills li {
+    background-color: rgb(31, 30, 30);
+    height: 8rem;
+    width: 7rem;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+  }
+  .fa {
+    font-size: 50px;
+    color: white;
+    top: -1rem;
+    position: relative;
+  }
+  .list_skills li .p1 {
+    position: absolute;
+    top: 5.5rem;
+    font-size: 18px;
+  }
+  .list_skills li .p2 {
+    position: absolute;
+    top: 15.5rem;
+    font-size: 18px;
+  }
+  .list_skills li .p3 {
+    position: absolute;
+    top: 25.0rem;
+    font-size: 18px;
+  }
+  
+  @media (min-width: 1024px) {
+    .container_skills {
+      height: 25rem;
+      width: 100%;
+      top: 168rem;
+    }
+    .hd_skills {
+      position: absolute;
+      top: 1rem;
+      font-size: 35px;
+      color: grey;
+      left: 35rem;
+    }
+    .list_skills {
+      top: 7rem;
+      list-style-type: none;
+      display: grid;
+      position: absolute;
+      flex-direction: row;
+  
+      grid-template-columns: repeat(9, 1fr);
+      grid-gap: 28px;
+    }
+    .list_skills li .p2 {
+      position: absolute;
+      top: 5.5rem;
+      font-size: 18px;
+    }
+    .list_skills li .p3 {
+      position: absolute;
+      top: 5.5rem;
+      font-size: 18px;
+    }
+  }
+  

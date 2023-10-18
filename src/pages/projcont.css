@@ -1,0 +1,399 @@
+/*******************Project Section*********************/
+.container_project {
+    height: 85rem;
+    width: 100%;
+    top: 212rem;
+    background-color: #e9d5a1;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  }
+  .project_hd {
+    position: absolute;
+    top: 1rem;
+    color: grey;
+    font-size: 31px;
+    left: 10rem;
+  }
+  .bankpic1 {
+    position: absolute;
+    max-width: 92%;
+    min-height: 72%;
+    top: 1rem;
+    left: 1rem;
+  }
+  .bank1 {
+    position: absolute;
+    max-width: 92%;
+    min-height: 72%;
+    top: 1rem;
+    left: 1rem;
+  }
+  .project_1 {
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    height: 23rem;
+    background-color: white;
+    width: 24rem;
+    top: 5rem;
+    left: 1rem;
+  }
+  .project_1:hover {
+    cursor: pointer;
+    transition: linear 0.9s;
+  
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px 20px;
+  }
+  .yr {
+    position: absolute;
+    top: 17rem;
+    left: 10rem;
+    border: 2px solid grey;
+    height: 1.8rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 17px;
+  }
+  .project_name {
+    position: absolute;
+    top: 19.5rem;
+    left: 3rem;
+    height: 3rem;
+    width: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+  }
+  .project_2 {
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    height: 23rem;
+    background-color: white;
+    width: 24rem;
+    top: 32rem;
+    left: 1rem;
+  }
+  .project_2:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.9s;
+    opacity: 1;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px 20px;
+  }
+  .project_3 {
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    height: 23rem;
+    background-color: white;
+    width: 24rem;
+    top: 58rem;
+    left: 1rem;
+  }
+  .project_3:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.9s;
+    opacity: 1;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px 20px;
+  }
+  
+  @media (min-width: 1024px) {
+    .container_project {
+      height: 85rem;
+      width: 100%;
+      top: 193rem;
+    }
+    .project_hd {
+      position: absolute;
+      top: 1rem;
+      color: grey;
+      font-size: 31px;
+      left: 35rem;
+    }
+    .project_1 {
+      height: 23rem;
+      background-color: white;
+      width: 24rem;
+      top: 5rem;
+      left: 5rem;
+    }
+    .project_2 {
+      height: 23rem;
+      background-color: white;
+      width: 24rem;
+      top: 5rem;
+      left: 45rem;
+    }
+    .project_3 {
+      height: 23rem;
+      background-color: white;
+      width: 24rem;
+      top: 33rem;
+      left: 5rem;
+    }
+  }
+  
+  /***************Contacts Section********************/
+  
+  .container_contacts {
+    height: 45rem;
+    width: 100%;
+    top: 297rem;
+    background-color: rgb(39, 38, 38);
+    position: absolute;
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  }
+  .contact_hd {
+    position: absolute;
+    font-size: 32px;
+    top: 1rem;
+    left: 9rem;
+    color: grey;
+  }
+  form {
+    position: absolute;
+    display: block;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    top: 5rem;
+  }
+  .email_field,
+  .name_field,
+  .message_field {
+    position: relative;
+    top: 2rem;
+    display: flex;
+    width: 24rem;
+    left: 0rem;
+    margin: 13px;
+    height: 5rem;
+    font-size: 20px;
+  
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .send {
+    position: relative;
+    top: 3rem;
+    display: flex;
+    width: 20rem;
+    left: 3rem;
+    margin: 10px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    border-radius: 10px;
+  }
+  .message_field {
+    height: 15rem;
+    position: relative;
+  }
+  .socialmedia {
+    position: absolute;
+    top: 45rem;
+    width: 50rem;
+    height: 12rem;
+  
+    display: block;
+  }
+  
+  .media_icons {
+    flex-direction: column;
+    top: 6rem;
+    left: -2rem;
+  
+    list-style-type: none;
+  
+    border: none;
+  }
+  
+  .media_icons li {
+    margin: 10px;
+    font-size: 25px;
+  
+    height: 3rem;
+    left: 5rem;
+  }
+  .faicon {
+    position: relative;
+    top: 0rem;
+    color: black;
+    left: 0rem;
+  }
+  .faicon:hover {
+    transition: 0.9s;
+    color: rgb(82, 164, 167);
+  }
+  
+  .footer {
+    position: absolute;
+    top: 44rem;
+  
+    width: 100%;
+    height: 17rem;
+  }
+  .footer .copyright {
+    position: absolute;
+    top: 15rem;
+    left: 8rem;
+    color: black;
+  }
+  .media_icons {
+    position: relative;
+  
+    height: 10rem;
+    top: 2rem;
+    left: 12rem;
+  
+    width: 5rem;
+  }
+  .media_icons p {
+    font-size: 20px;
+  }
+  .ul_pages p {
+    position: absolute;
+    top: 0rem;
+    left: 2.2rem;
+    font-size: 20px;
+  }
+  
+  .ul_pages {
+    position: absolute;
+    height: 10rem;
+  
+    width: 7rem;
+    top: 2rem;
+    left: 1rem;
+  
+    list-style-type: none;
+  }
+  .li_pages {
+    position: relative;
+    top: 2rem;
+    margin: 5px;
+    cursor: pointer;
+  }
+  .li_pages:hover {
+    padding: 2px;
+    background-color: #ada8a8;
+    border-radius: 3px;
+  }
+  
+  @media (min-width: 1024px) {
+    .container_contacts {
+      height: 40rem;
+      width: 100%;
+      top: 278rem;
+    }
+    .contact_hd {
+      position: absolute;
+      font-size: 32px;
+      top: 1rem;
+      left: 33rem;
+      color: grey;
+    }
+    form {
+      position: absolute;
+      top: 5rem;
+      left: 20rem;
+    }
+  
+    .media_icons {
+      position: relative;
+  
+      height: 10rem;
+      top: 3rem;
+      left: 30rem;
+  
+      width: 5rem;
+    }
+    .media_icons p {
+      font-size: 20px;
+    }
+    .footer {
+      position: absolute;
+      top: 40rem;
+  
+      width: 100%;
+      height: 17rem;
+    }
+    .footer .copyright {
+      position: absolute;
+      top: 15rem;
+      left: 35rem;
+      color: black;
+    }
+    .ul_pages p {
+      position: absolute;
+      top: 0rem;
+      left: 2.2rem;
+      font-size: 20px;
+    }
+  
+    .ul_pages {
+      position: absolute;
+      height: 10rem;
+  
+      width: 7rem;
+      top: 3rem;
+      left: 7rem;
+  
+      list-style-type: none;
+    }
+    .li_pages {
+      position: relative;
+      top: 2rem;
+      margin: 5px;
+      cursor: pointer;
+    }
+    .li_pages:hover {
+      padding: 2px;
+      background-color: #ada8a8;
+      border-radius: 3px;
+    }
+  
+    .send {
+      font-size: 20px;
+      position: relative;
+      top: 3rem;
+      display: flex;
+      width: 25rem;
+      left: 8rem;
+      margin: 10px;
+      height: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      border-radius: 10px;
+    }
+    .email_field,
+    .name_field,
+    .message_field {
+      position: relative;
+      top: 2rem;
+      display: flex;
+      width: 30rem;
+      left: 5rem;
+      margin: 13px;
+      height: 5rem;
+      font-size: 20px;
+  
+      flex-direction: column;
+      border-radius: 10px;
+    }
+  }
+  
