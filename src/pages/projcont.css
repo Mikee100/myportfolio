@@ -167,6 +167,8 @@
     align-items: center;
     justify-content: center;
     top: 5rem;
+  
+    width: 25.5rem;
   }
   .email_field,
   .name_field,
@@ -204,8 +206,9 @@
   .socialmedia {
     position: absolute;
     top: 45rem;
-    width: 50rem;
+    width: 24rem;
     height: 12rem;
+   
   
     display: block;
   }

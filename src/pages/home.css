@@ -4,7 +4,7 @@
   position: absolute;
   top: 1rem;
   font-size: 1.5rem;
-  left: 20rem;
+  left: 22rem;
   cursor: pointer;
   display: flex;
   color: black;
@@ -49,22 +49,22 @@
   transition: 0.9s ease-in-out;
 }
 .nav-links-mobile {
-  position: fixed;
+  position: absolute;
   display: flex;
   list-style: none;
   justify-content: center;
   align-items: center;
-  left: -15rem;
+  left: 0rem;
   top: 0rem;
   transition: all 0.9s ease-in-out;
-  width: 100%;
+  width: 91%;
   height: 19rem;
   background-color: rgb(0, 0, 0, 0.5);
   transform: translateY(1);
   transition: transform 0.5s ease;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   .bars {
     display: none;
   }
@@ -78,6 +78,7 @@
     color: white;
     width: 100%;
     opacity: 0.8;
+   
   }
 
   .nav-li {
@@ -104,9 +105,7 @@
 
 /*** Home Section **/
 
-* {
-  margin: 0;
-}
+
 .container_home {
   height: 60rem;
   width: 100%;
@@ -131,7 +130,7 @@
   clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
 }
 .git_icon {
-  position: fixed;
+  position: absolute;
   font-size: 1.7rem;
   top: 1rem;
   left: 1rem;
@@ -203,10 +202,10 @@
   font-size: 25px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 600px) {
   .container_home {
     border-radius: 10px 100px;
-    width: 100%;
+    width: 110%;
     background-color: #e9d5a1;
     position: absolute;
     border-radius: 0% 0% 10px 1000px;
@@ -263,8 +262,8 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-
-    top: -25rem;
+left: 1rem;
+    top: 12rem;
   }
 
   .media_icons_home li {
@@ -274,8 +273,8 @@
   }
   .resume {
     position: absolute;
-    top: 22rem;
-    left: 17rem;
+    top: 24rem;
+    left: 20rem;
   }
   .resume:hover {
     padding: 20px;
@@ -283,8 +282,8 @@
   }
   .hireme {
     position: absolute;
-    top: 22rem;
-    left: 25rem;
+    top: 24rem;
+    left: 27rem;
   }
   .hireme:hover {
     padding: 20px;

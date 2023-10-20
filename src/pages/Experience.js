@@ -56,7 +56,7 @@ export default function Experience() {
               {" "}
               Oracle: Software Assuarance and Testing (2021- )
             </li>
-            <p style={{ color: "grey", fontStyle: "italic", width: "30rem" }}>
+            <p style={{ color: "grey", fontStyle: "italic", width: "20rem" }}>
               {" "}
               Works as Software Tester.
             </p>
