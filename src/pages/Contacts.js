@@ -161,7 +161,7 @@ const Contacts = () => {
           </li>
         </ul>
 
-        <p className="copyright"> &copy;Copyright Shalene </p>
+        <p className="copyright"> &copy;Copyright Shaline </p>
       </div>
      
     </div>
