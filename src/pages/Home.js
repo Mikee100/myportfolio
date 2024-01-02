@@ -51,7 +51,7 @@ export default function Home() {
 
       <div class="container">
        
-
+{/*  
       <div class="banter-loader">
   <div class="banter-loader__box"></div>
   <div class="banter-loader__box"></div>
@@ -63,7 +63,7 @@ export default function Home() {
   <div class="banter-loader__box"></div>
   <div class="banter-loader__box"></div>
 </div>
-
+*/}
 
 
 
@@ -73,13 +73,13 @@ export default function Home() {
           <div class="title">
             <span class="block"></span>
             <h1>
-              I'm Shaline <span></span>
+              I'm Michael <span></span>
             </h1>
           </div>
 
           <div class="role">
             <div class="block"></div>
-            <p>Web Developer & Enterpreneur</p>
+            <p>Web Developer & System Engineer</p>
           </div>
           <ul className="media_icons_home">
             <li>

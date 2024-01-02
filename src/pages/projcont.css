@@ -3,12 +3,17 @@
     height: 85rem;
     width: 100%;
     top: 212rem;
-    background-color: #e9d5a1;
+  
+    background-image: linear-gradient(
+      to right,
+      rgba(206, 200, 200, 0),
+      rgb(109, 91, 91)
+    );
     display: flex;
     position: absolute;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+
   }
   .project_hd {
     position: absolute;
@@ -111,6 +116,12 @@
       height: 85rem;
       width: 100%;
       top: 193rem;
+      background-color: rgb(39, 38, 38);
+      background-image: linear-gradient(
+        to right,
+        rgba(206, 200, 200, 0),
+        rgb(109, 91, 91)
+      );
     }
     .project_hd {
       position: absolute;
@@ -300,6 +311,12 @@
       height: 40rem;
       width: 100%;
       top: 278rem;
+      background-color: rgb(39, 38, 38);
+      background-image: linear-gradient(
+        to right,
+        rgba(206, 200, 200, 0),
+        rgb(109, 91, 91)
+      );
     }
     .contact_hd {
       position: absolute;

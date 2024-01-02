@@ -9,7 +9,7 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-  
+      
       .title {
         width: 110%;
         position: relative;
@@ -17,7 +17,8 @@
         align-items: center;
         height: 50px;
         left: 0rem;
-        font-size: 25px;
+
+        
         .block {
           width: 0%;
           height: inherit;
@@ -25,6 +26,7 @@
           position: absolute;
           animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
           display: flex;
+          
         }
   
         h1 {
@@ -1210,33 +1212,39 @@
   
   .container {
     position: relative;
-    width: 30%;
-    height: 18vh;
+    width: 40%;
+    height: 25rem;
     top: 10rem;
-    left:13rem;
+    left:5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+   
+  
 
     .box {
-      width: 250px;
+      width: 370px;
       height: 250px;
       left: 2rem;
       position: relative;
       display: flex;
       justify-content: center;
       flex-direction: column;
-      top:1rem;
+      top:0rem;
+      left: -1rem;
+     
+     
       .title {
         width: 110%;
         position: relative;
         display: flex;
         align-items: center;
-        height: 50px;
+        height: 170px;
+        top: -3rem;
+    
       
         
-        font-size: 25px;
-        .block {
+        font-size: rem;  .block {
           width: 0%;
           height: inherit;
           background: #ffb510;
@@ -1248,7 +1256,7 @@
         h1 {
           font-family: "Poppins";
           color: #fff;
-          font-size: 32px;
+          font-size:4rem;
           -webkit-animation: mainFadeIn 2s forwards;
           -o-animation: mainFadeIn 2s forwards;
           animation: mainFadeIn 2s forwards;
@@ -1257,6 +1265,8 @@
           display: flex;
           align-items: baseline;
           position: relative;
+          
+        
 
           span {
             width: 0px;
@@ -1284,9 +1294,10 @@
         position: relative;
         display: flex;
         align-items: center;
-        height: 50px;
-        top: 1rem;
+        height: 170px;
+        top: -3rem;
         left: 0rem;
+       
         .block {
           width: 0%;
           height: inherit;
@@ -1307,6 +1318,7 @@
           font-size: 12px;
           text-transform: uppercase;
           letter-spacing: 5px;
+          font-size: 2rem;
         }
       }
     }

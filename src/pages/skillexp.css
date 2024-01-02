@@ -9,7 +9,7 @@
     position: absolute;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    
   }
   .exp_hd {
     position: absolute;
@@ -187,7 +187,13 @@
     .container_experience {
       height: 59rem;
       width: 100%;
-      top: 109rem;
+      top:91rem;
+      background-color: rgb(39, 38, 38);
+      background-image: linear-gradient(
+        to right,
+        rgba(206, 200, 200, 0),
+        rgb(109, 91, 91)
+      );
     }
   
     .exp_hd {
@@ -223,7 +229,7 @@
     position: absolute;
     align-items: center;
     justify-content: flex-start;
-    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  
   }
   .hd_skills {
     position: absolute;
@@ -280,6 +286,12 @@
       height: 25rem;
       width: 100%;
       top: 168rem;
+      background-color: rgb(39, 38, 38);
+      background-image: linear-gradient(
+        to right,
+        rgba(206, 200, 200, 0),
+        rgb(109, 91, 91)
+      );
     }
     .hd_skills {
       position: absolute;

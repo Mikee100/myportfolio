@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+   
   }
   .list_icons {
     position: absolute;
@@ -90,7 +90,14 @@
       position: absolute;
       height: 50rem;
       width: 100%;
-      top: 59rem;
+      top: 42rem;
+      border: none;
+      background-color: rgb(39, 38, 38);
+      background-image: linear-gradient(
+        to right,
+        rgba(206, 200, 200, 0),
+        rgb(109, 91, 91)
+      );
     }
     .about_hd {
       position: absolute;

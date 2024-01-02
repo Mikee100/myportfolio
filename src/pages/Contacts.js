@@ -111,6 +111,8 @@ const Contacts = () => {
        />
         <button className="send"> Send Message </button>
       </form>
+
+      
       <div className="socialmedia"></div>
       <div className="footer">
         <ul className="ul_pages">

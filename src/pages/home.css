@@ -107,7 +107,7 @@
 
 
 .container_home {
-  height: 60rem;
+  height: 42rem;
   width: 100%;
   background-image: linear-gradient(
     to right,
@@ -115,8 +115,8 @@
     rgb(109, 91, 91)
   );
   position: absolute;
-  box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
-  border-radius: 0% 0% 10px 1000px;
+ 
+ 
 }
 .github {
   position: fixed;
@@ -204,12 +204,10 @@
 
 @media (min-width: 600px) {
   .container_home {
-    border-radius: 10px 100px;
-    width: 110%;
-    background-color: #e9d5a1;
-    position: absolute;
-    border-radius: 0% 0% 10px 1000px;
-    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  
+    width: 110%; 
+     position: absolute;
+    background-color: rgb(39, 38, 38);
     background-image: linear-gradient(
       to right,
       rgba(206, 200, 200, 0),
@@ -218,7 +216,6 @@
   }
   .github {
     position: fixed;
-
     left: 3.1rem;
     top: 7rem;
     transform: translate(-50%, -50%);
@@ -263,7 +260,7 @@
     flex-direction: row;
     list-style-type: none;
 left: 1rem;
-    top: 12rem;
+    top: 14rem;
   }
 
   .media_icons_home li {
@@ -273,8 +270,8 @@ left: 1rem;
   }
   .resume {
     position: absolute;
-    top: 24rem;
-    left: 20rem;
+    top: 33rem;
+    left: 10rem;
   }
   .resume:hover {
     padding: 20px;
@@ -282,8 +279,8 @@ left: 1rem;
   }
   .hireme {
     position: absolute;
-    top: 24rem;
-    left: 27rem;
+    top: 33rem;
+    left: 17rem;
   }
   .hireme:hover {
     padding: 20px;
@@ -292,7 +289,7 @@ left: 1rem;
   .pic_home {
     top: 5rem;
     left: 40rem;
-    height: 50%;
+    height: 70%;
     width: 30%;
     position: absolute;
     border-radius: 10px;
