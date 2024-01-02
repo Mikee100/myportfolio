@@ -20,7 +20,7 @@ export default function About() {
           <li style={{ backgroundColor: "yellow" }}> </li>
           <li style={{ backgroundColor: "green" }}></li>
         </ul>
-        <h3 className="hd_hi"> Hi :) </h3>
+        <h3 className="hd_hi"> Hi there:) </h3>
 
         <div className="myabout_desc">
           <p>

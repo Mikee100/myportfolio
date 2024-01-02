@@ -270,8 +270,8 @@ left: 1rem;
   }
   .resume {
     position: absolute;
-    top: 33rem;
-    left: 10rem;
+    top: 35rem;
+    left: 17rem;
   }
   .resume:hover {
     padding: 20px;
@@ -279,8 +279,8 @@ left: 1rem;
   }
   .hireme {
     position: absolute;
-    top: 33rem;
-    left: 17rem;
+    top: 35rem;
+    left: 25rem;
   }
   .hireme:hover {
     padding: 20px;

@@ -5,25 +5,18 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Navbar from "./Navbar";
+import { useNavigate } from "react-router";
 
 export default function Home() {
-  const handleClickScroll = () => {
-    const element = document.getElementById("container_contacts");
-    if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
-      element.scrollIntoView();
-      element.scrollIntoView(false);
-      element.scrollIntoView({ block: "end" });
-      element.scrollIntoView({
-        behavior: "smooth",
-        block: "end",
-        inline: "nearest",
-        transition: ".9s",
-      });
-    }
-  };
+
+    const history = useNavigate();
+   
+
   const openResume = () => {
     window.open('/images/008129426.pdf');
+  };
+  const openHireMe = () => {
+     history("./contacts");
   };
   return (
     <div className="container_home" id="container_home">
@@ -37,7 +30,7 @@ export default function Home() {
         {" "}
         Resume
       </button>
-      <button className="hireme" onClick={handleClickScroll}>
+      <button className="hireme" onClick={openHireMe}>
         {" "}
         Hire Me
       </button>
@@ -51,19 +44,6 @@ export default function Home() {
 
       <div class="container">
        
-{/*  
-      <div class="banter-loader">
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-  <div class="banter-loader__box"></div>
-</div>
-*/}
 
 
 
