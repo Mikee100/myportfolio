@@ -5,18 +5,19 @@ import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import Navbar from "./Navbar";
-import { useNavigate } from "react-router";
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
 
-    const history = useNavigate();
+   
    
 
   const openResume = () => {
     window.open('/images/008129426.pdf');
   };
   const openHireMe = () => {
-     history("./contacts");
+     window.open("/contacts")
   };
   return (
     <div className="container_home" id="container_home">
@@ -30,10 +31,10 @@ export default function Home() {
         {" "}
         Resume
       </button>
-      <button className="hireme" onClick={openHireMe}>
+    <Link to="./contacts" >  <button className="hireme" onClick={openHireMe}>
         {" "}
         Hire Me
-      </button>
+      </button></Link>
 
       <img
       // eslint-disable-next-line

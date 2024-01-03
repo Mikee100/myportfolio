@@ -2,7 +2,7 @@
 .container_about {
     height: 61rem;
     width: 100%;
-    top: 59rem;
+    top: 42rem;
     background-color: white;
     display: flex;
     position: absolute;
@@ -102,7 +102,7 @@
     .about_hd {
       position: absolute;
       top: 1rem;
-      left: 35rem;
+      left: 5rem;
       color: grey;
       font-size: 35px;
     }

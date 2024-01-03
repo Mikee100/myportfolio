@@ -4,7 +4,7 @@
     height: 59rem;
     width: 100%;
     top: 120rem;
-    background-color: #e9d5a1;
+    background-color: white;
     display: flex;
     position: absolute;
     align-items: center;
@@ -102,68 +102,28 @@
   background-color: grey;
 
 }
-.first_ln{
-  position: absolute;
-  width:7rem;
- 
-  left:35.1rem;
-  top:5rem;
-  height: .01rem;
-  border:none;
-  background-color: grey;
 
-}
-.second_ln{
-  position: absolute;
-  width:7rem;
-  top:5rem;
-  height: .01rem;
-  border:none;
-  left:28rem;
-  top:15rem;
-  background-color: grey;
 
-}
-.first_box{
-  position: absolute;
-  height: 8rem;
-  width: 20rem;
-  background-color: aliceblue;
-  top:3rem;
-  right:14rem;
-  border: 1px solid white;
-  border: 6px;
-
-}
 .second_box{
   position: absolute;
   height: 8rem;
   width: 23rem;
   background-color: aliceblue;
-  top:12rem;
-  left:5rem;
+  top:5rem;
+  left:0rem;
   border: 1px solid white;
   border-radius: 6px;
 
 }
 
-.work_ln{
-  position: absolute;
-  width:.1rem;
-  height: 20rem;
-  border:none;
-  left:35rem;
-  top:30rem;
-  background-color: grey;
 
-}
 .first_work{
   position: absolute;
   height: 8rem;
-  width: 20rem;
+  width: 23rem;
   background-color: aliceblue;
   top:30rem;
-  right:15rem;
+ left:0rem;
   border: 1px solid white;
   border: 6px;
 
@@ -199,7 +159,7 @@
     .exp_hd {
       position: absolute;
       top: 1rem;
-      left: 25rem;
+      left: 5rem;
       color: grey;
       font-size: 20x;
     }
@@ -224,7 +184,7 @@
     height: 33rem;
     width: 100%;
     top: 179rem;
-    background-color: rgb(39, 38, 38);
+    background-color: white;
     display: flex;
     position: absolute;
     align-items: center;
@@ -285,7 +245,7 @@
     .container_skills {
       height: 25rem;
       width: 100%;
-      top: 168rem;
+      top: 150rem;
       background-color: rgb(39, 38, 38);
       background-image: linear-gradient(
         to right,
@@ -298,7 +258,7 @@
       top: 1rem;
       font-size: 35px;
       color: grey;
-      left: 35rem;
+      left: 5rem;
     }
     .list_skills {
       top: 7rem;

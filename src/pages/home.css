@@ -109,12 +109,9 @@
 .container_home {
   height: 42rem;
   width: 100%;
-  background-image: linear-gradient(
-    to right,
-    rgba(206, 200, 200, 0),
-    rgb(109, 91, 91)
-  );
+
   position: absolute;
+  background-color: white;
  
  
 }
@@ -259,8 +256,8 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-left: 1rem;
-    top: 14rem;
+    left: 1rem;
+    top: 15rem;
   }
 
   .media_icons_home li {
@@ -270,21 +267,21 @@ left: 1rem;
   }
   .resume {
     position: absolute;
-    top: 35rem;
-    left: 17rem;
+    top: 28rem;
+    left: 10rem;
   }
   .resume:hover {
-    padding: 20px;
+    opacity: .7;
     transition: 0.9s ease-in-out;
   }
   .hireme {
     position: absolute;
-    top: 35rem;
-    left: 25rem;
+    top: 28rem;
+    left: 18rem;
   }
   .hireme:hover {
-    padding: 20px;
-    transition: 0.9s ease-in-out;
+    opacity: .7;
+    transition: 0.1s ease-in-out;
   }
   .pic_home {
     top: 5rem;

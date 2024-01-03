@@ -9,8 +9,7 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
-      background-color: aqua;
-      
+     
       .title {
         width: 110%;
         position: relative;
@@ -212,12 +211,14 @@
   .container {
     position: relative;
     width: 40%;
-    height: 28rem;
-    top: 7rem;
+    height: 13rem;
+    top: 10rem;
     left:5rem;
     display: flex;
     justify-content: center;
     align-items: center;
+
+      
    
   
 
@@ -238,8 +239,9 @@
         position: relative;
         display: flex;
         align-items: center;
-        height: 170px;
-        top: -3rem;
+        height: 80px;
+        top: 0rem;
+        ;
     
       
         
@@ -289,12 +291,12 @@
       }
 
       .role {
-        width: 100%;
+        width: 110%;
         position: relative;
         display: flex;
         align-items: center;
-        height: 170px;
-        top: -3rem;
+        height: 80px;
+        top: 0rem;
         left: 0rem;
        
         .block {

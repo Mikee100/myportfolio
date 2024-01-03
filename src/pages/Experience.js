@@ -31,24 +31,8 @@ export default function Experience() {
       </div>
      ****/}
 
-<hr  className="edu_line" />
-<hr className="first_ln" />
-<div  className="first_box">
-
-      
-      <small className="small_list_high">
-        High school:
-        <ul>
-          <li>Nairobi High(2009-2010) </li>
-          <li>Kiambu High(2010-2011)</li>
-        </ul>
-      </small>
-
-    
 
 
-</div>
-<hr className="second_ln" />
 <div className="second_box">
 
   <small className="small_list_uni">
@@ -61,9 +45,7 @@ export default function Experience() {
 
 </div>
 
-<hr className="work_ln" />
 
-<hr className="ln_work_first" />
 
 <div className="first_work">
 <small className="small_work">
