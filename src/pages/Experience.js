@@ -5,6 +5,7 @@ import "../pages/home.css";
 export default function Experience() {
   return (
     <div className="container_experience" id="container_experience">
+
       <h2 className="exp_hd"> Education and Work Experience </h2>
 
       {/**   

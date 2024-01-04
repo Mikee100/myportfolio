@@ -201,15 +201,10 @@
 
 @media (min-width: 600px) {
   .container_home {
-  
+    z-index: -1;
     width: 110%; 
      position: absolute;
-    background-color: rgb(39, 38, 38);
-    background-image: linear-gradient(
-      to right,
-      rgba(206, 200, 200, 0),
-      rgb(109, 91, 91)
-    );
+     background: #23252f;
   }
   .github {
     position: fixed;

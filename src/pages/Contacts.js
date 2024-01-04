@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com"
 import "../pages/projcont.css";
 
+
 const Contacts = () => {
 
   const form = useRef();
@@ -99,7 +100,7 @@ const Contacts = () => {
 
   return (
     
-    <div className="container_contacts" id="container_contacts">
+    <div className="container_home" id="container_contacts">
       <h2 className="contact_hd">Contact me</h2>
 
       <form  ref={form} onSubmit={sendEmail}>
@@ -113,7 +114,7 @@ const Contacts = () => {
       </form>
 
       
-      <div className="socialmedia"></div>
+     
       <div className="footer">
         <ul className="ul_pages">
           <p>Pages</p>

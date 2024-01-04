@@ -1,9 +1,11 @@
 import React from 'react'
 import "../pages/projcont.css";
 
+
 export default function Projects() {
   return (
     <div className='container_project' id='container_project' >
+
         <h2 className='project_hd' >Projects</h2>
 <div className='project_1' >
  

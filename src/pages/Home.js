@@ -4,52 +4,50 @@ import "../pages/homebeauty.css";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import Navbar from "./Navbar";
-import { Link } from "react-router-dom";
 
+import About from "./About";
+import Skills from "./Skills";
+import Experience from "./Experience";
+import Projects from "./Projects";
 
 export default function Home() {
 
-   
-   
 
   const openResume = () => {
-    window.open('/images/008129426.pdf');
+    window.open("/images/008129426.pdf");
   };
-  const openHireMe = () => {
-     window.open("/contacts")
-  };
+
+ 
   return (
     <div className="container_home" id="container_home">
-      <Navbar />
+     
+<About />
+<Experience />
+<Skills />
+<Projects /> 
 
-      <button
-        className="resume"
-        onClick={openResume}
-        target="blank"
-      >
+
+
+      <button className="resume" onClick={openResume} target="blank">
         {" "}
         Resume
       </button>
-    <Link to="./contacts" >  <button className="hireme" onClick={openHireMe}>
+      <a href="./contacts">
         {" "}
-        Hire Me
-      </button></Link>
+        <button className="hireme" o>
+          {" "}
+          Hire Me
+        </button>{" "}
+      </a>
 
       <img
-      // eslint-disable-next-line
+        // eslint-disable-next-line
         src="/images/IMG-20231013-WA0012.jpg"
         className="pic_home"
         alt="Shalene"
       />
 
       <div class="container">
-       
-
-
-
-
-
         <div class="box">
           <div class="title">
             <span class="block"></span>
@@ -65,7 +63,10 @@ export default function Home() {
           <ul className="media_icons_home">
             <li>
               {" "}
-              <a target="blank" href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA==">
+              <a
+                target="blank"
+                href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA=="
+              >
                 {" "}
                 <FaInstagram className="faicon" />
               </a>
@@ -78,7 +79,10 @@ export default function Home() {
             </li>
             <li>
               {" "}
-              <a target="blank" href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              >
                 {" "}
                 <FaLinkedin className="faicon" />
               </a>{" "}
@@ -86,7 +90,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-      
     </div>
   );
 }

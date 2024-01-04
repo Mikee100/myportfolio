@@ -3,6 +3,7 @@ import "../pages/about.css";
 export default function About() {
   return (
     <div className="container_about" id="container_about">
+ 
       <h1 className="about_hd"> About me</h1>
 
       <div className="pic_holder">

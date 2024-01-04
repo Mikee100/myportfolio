@@ -92,12 +92,7 @@
       width: 100%;
       top: 42rem;
       border: none;
-      background-color: rgb(39, 38, 38);
-      background-image: linear-gradient(
-        to right,
-        rgba(206, 200, 200, 0),
-        rgb(109, 91, 91)
-      );
+      background: #3b3f4d;
     }
     .about_hd {
       position: absolute;

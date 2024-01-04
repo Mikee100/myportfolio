@@ -19,17 +19,11 @@ import Projects from './pages/Projects';
     <main>
 
 
-<Home />
-<About />
-<Experience />
-<Skills />
-<Contacts />
-<Projects /> 
 
 
 
  <Routes>
-   <Route path="/" element={<Home /> }/>
+   <Route path="/home" element={<Home /> }/>
     <Route path="navbar" element={<Navbar />} />
     <Route path="about" element={<About />}/>
     <Route path="experience" element={<Experience />} />

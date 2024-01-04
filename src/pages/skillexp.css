@@ -148,12 +148,7 @@
       height: 59rem;
       width: 100%;
       top:91rem;
-      background-color: rgb(39, 38, 38);
-      background-image: linear-gradient(
-        to right,
-        rgba(206, 200, 200, 0),
-        rgb(109, 91, 91)
-      );
+      background: #23252f;
     }
   
     .exp_hd {
@@ -246,12 +241,7 @@
       height: 25rem;
       width: 100%;
       top: 150rem;
-      background-color: rgb(39, 38, 38);
-      background-image: linear-gradient(
-        to right,
-        rgba(206, 200, 200, 0),
-        rgb(109, 91, 91)
-      );
+      background: #3b3f4d;
     }
     .hd_skills {
       position: absolute;

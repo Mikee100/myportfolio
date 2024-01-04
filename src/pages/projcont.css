@@ -112,12 +112,7 @@
       height: 85rem;
       width: 100%;
       top: 175rem;
-     background-color: white;
-      background-image: linear-gradient(
-        to right,
-        rgba(206, 200, 200, 0),
-        rgb(109, 91, 91)
-      );
+      background: #23252f;
     }
     .project_hd {
       position: absolute;
@@ -154,7 +149,7 @@
   .container_contacts {
     height: 45rem;
     width: 100%;
-    top: 297rem;
+    top: 10rem;
    background-color: white;
     position: absolute;
     display: flex;
@@ -306,13 +301,8 @@
     .container_contacts {
       height: 40rem;
       width: 100%;
-      top: 260rem;
-    background-color: white;
-      background-image: linear-gradient(
-        to right,
-        rgba(206, 200, 200, 0),
-        rgb(109, 91, 91)
-      );
+      top: 10rem;
+      background: #23252f;
     }
     .contact_hd {
       position: absolute;

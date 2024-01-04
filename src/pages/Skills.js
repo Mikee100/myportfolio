@@ -9,9 +9,12 @@ import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 
+
+
 function Skills() {
   return (
     <div className="container_skills" id="container_skills">
+
       <h2 className="hd_skills">Skills</h2>
 
       <ul className="list_skills">
