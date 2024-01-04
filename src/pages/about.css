@@ -103,12 +103,11 @@
     }
     .about_desc {
       position: absolute;
-      top: 10rem;
+      top: 5rem;
       left: 3rem;
       height: 30rem;
       width: 40rem;
       font-size: 16px;
-     
       display: flex;
       justify-content: center;
       align-items: center;
@@ -127,7 +126,7 @@
       width: 37rem;
       top: 5rem;
       left: 2rem;
-      font-size: 1.9rem;
+      font-size: 1rem;
       position: absolute;
       font-family: 'Kanit', sans-serif;
     }
@@ -135,7 +134,7 @@
     .pic_holder {
       height: 30rem;
       
-      top: 10rem;
+      top: 5rem;
       left: 45rem;
       width: 25rem;
       position: absolute;
@@ -151,5 +150,28 @@
       position: absolute;
      
     }
+    .about_desc h1{
+      position: absolute;
+      top: 10rem;
+    }
+    .about_desc .interests_list{
+      position: absolute;
+      top:12rem;
+      text-decoration: none;
+      
+    }
+    .java_language{
+      position: absolute;
+
+    }
+    .java_language p{
+      position: absolute;
+      top: 13rem;
+    }
+    .java_div{
+      position: absolute;
+      border-radius: 50%;
+    }
+
   }
   

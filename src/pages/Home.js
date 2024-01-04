@@ -42,7 +42,7 @@ export default function Home() {
 
       <img
         // eslint-disable-next-line
-        src="/images/IMG-20231013-WA0012.jpg"
+        src="/images/IMG_20230324_114136_046.jpg"
         className="pic_home"
         alt="Shalene"
       />

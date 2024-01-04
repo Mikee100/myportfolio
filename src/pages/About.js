@@ -1,4 +1,5 @@
 import "../pages/about.css";
+import { IoBookSharp } from "react-icons/io5";
 
 export default function About() {
   return (
@@ -6,14 +7,7 @@ export default function About() {
  
       <h1 className="about_hd"> About me</h1>
 
-      <div className="pic_holder">
-        <img
-          // eslint-disable-next-line
-          src="/images/IMG-20231013-WA0009.jpg"
-          className="mypic"
-          alt=""
-        />
-      </div>
+      
 
       <div className="about_desc">
         <ul className="list_icons">
@@ -36,6 +30,19 @@ export default function About() {
             innovative solutions to complex problems and delivering high-quality
             results that surpass expectations.{" "}
           </p>
+          <h1 >  Interests</h1>
+          <ul className="interests_list" >
+          <li tyle={{ textDecoration: 'none'}} ><IoBookSharp />Web development</li>
+          <li tyle={{ textDecoration: 'none'}} ><IoBookSharp />System development</li>
+          <li tyle={{ textDecoration: 'none'}} ><IoBookSharp />Artificial intelligence</li>
+
+          </ul>  
+          <div className="java_language" >  
+          <h1>Languages</h1>
+          <p>JAVA</p>
+          <div className="java_div" ></div>
+
+</div>
         </div>
       </div>
     </div>
