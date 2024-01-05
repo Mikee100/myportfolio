@@ -3,11 +3,9 @@ import { FaGithub } from "react-icons/fa";
 import "./home.css"
 import {FaBars} from "react-icons/fa"
 import {FaTimes} from "react-icons/fa"
-
+import { Link } from "react-router-dom";
 export default function Navbar(){
   const[Mobile, setMobile] = useState(false)
-  // eslint-disable-next-line
-{/** 
 
     const handleClickScroll = () => {
         const element = document.getElementById('container_home');
@@ -53,12 +51,15 @@ element.scrollIntoView({ block: "end" });
         }
       };
       
-    */}
+      const openResume = () => {
+        window.open("/images/MICHAEL WAWERU.pdf");
+      };
+    
 
     return(
         <div>
-           
-      <h2></h2>
+     
+     <h1 className="my_name" >MW</h1>
            <div className="github">
                <a target="blank" href="https://github.com/Mikee100">
           <FaGithub className="git_icon" />
@@ -66,16 +67,21 @@ element.scrollIntoView({ block: "end" });
         </div>
             <ul className={Mobile ? "nav-links-mobile":"nav-ul"} onClick={ ()=> setMobile(false)  } >
               
-              {/**
+             
 <Link to="./home" > <li className="nav-li"  onClick={handleClickScroll} >Home</li> </Link>
 <Link to="./About"><li className="nav-li"   onClick={handleClickScroll2}  >About</li></Link> 
 <Link to="./Experience"><li className="nav-li"  onClick={handleClickScroll3}>Experience</li></Link>
 <Link to="./Projects"><li className="nav-li"  onClick={handleClickScroll4}>Projects</li></Link>
 <Link to="./Skills"><li className="nav-li"  onClick={handleClickScroll5}>Skills</li></Link>
- */}
+
     </ul>
     <button className='bars' onClick={() => setMobile(!Mobile)} >
           {Mobile ? <FaTimes/> : <FaBars  />}</button>
+          <button className="resume" onClick={openResume} target="blank">
+        {" "}
+        Resume
+      </button>
+      <h1  ><a className="my_name" href="/" >MW</a ></h1>
         </div>
 
     )

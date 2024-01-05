@@ -108,10 +108,10 @@
   position: absolute;
   height: 8rem;
   width: 23rem;
-  background-color: aliceblue;
+ 
   top:5rem;
   left:0rem;
-  border: 1px solid white;
+
   border-radius: 6px;
 
 }
@@ -121,7 +121,7 @@
   position: absolute;
   height: 8rem;
   width: 23rem;
-  background-color: aliceblue;
+
   top:30rem;
  left:0rem;
   border: 1px solid white;
@@ -150,13 +150,42 @@
       top:91rem;
       background: #23252f;
     }
-  
+    .second_box{
+      position: absolute;
+      left: 10rem;
+      height: 14rem;
+      width: 50rem;
+      box-shadow: 0px 0px 10px 0px;
+      color: white;
+    }
+    .small_list_uni{
+      font-size: 1.6rem;
+      width: 25rem;
+      left: 1rem;
+      
+    }
+    .first_work{
+      position: absolute;
+      left: 10rem;
+      top: 23rem;
+      height: 30rem;
+      width: 50rem;
+      color: white;
+      box-shadow: 0px 0px 10px 0px;
+      
+    }
+  .small_work{
+    font-size: 1.4rem;
+    width: 30rem;
+    
+  }
+
     .exp_hd {
       position: absolute;
       top: 1rem;
       left: 5rem;
       color: grey;
-      font-size: 20x;
+      font-size: 1.6rem;
     }
     .education {
       position: absolute;

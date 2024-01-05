@@ -4,7 +4,7 @@ import "../pages/homebeauty.css";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
+import { IoSend } from 'react-icons/io5';
 import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
@@ -13,10 +13,7 @@ import Projects from "./Projects";
 export default function Home() {
 
 
-  const openResume = () => {
-    window.open("/images/008129426.pdf");
-  };
-
+ 
  
   return (
     <div className="container_home" id="container_home">
@@ -28,15 +25,12 @@ export default function Home() {
 
 
 
-      <button className="resume" onClick={openResume} target="blank">
-        {" "}
-        Resume
-      </button>
+      
       <a href="./contacts">
         {" "}
         <button className="hireme" o>
           {" "}
-          Hire Me
+          Send Message <IoSend className="send_home_icon" />
         </button>{" "}
       </a>
 

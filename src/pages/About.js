@@ -1,5 +1,8 @@
 import "../pages/about.css";
 import { IoBookSharp } from "react-icons/io5";
+import { FaJava } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 
 export default function About() {
   return (
@@ -39,10 +42,42 @@ export default function About() {
           </ul>  
           <div className="java_language" >  
           <h1>Languages</h1>
+          <FaJava className="java_icon" />
           <p>JAVA</p>
-          <div className="java_div" ></div>
+          </div>
 
-</div>
+           <div className="skills-wrapper" >
+          <div className="skills-percent" style={{width:"80%"}}></div>
+
+          </div>
+
+     
+          <div className="sql_language" >  
+        
+          <FaDatabase className="sql_icon" />
+          <p>SQL</p>
+          </div>
+
+          <div className="skills-wrapper-sql" >
+          <div className="skills-percent-sql" style={{width:"70%"}}></div>
+          </div>
+
+          
+          <div className="js_language" >  
+        
+        <IoLogoJavascript className="js_icon" />
+        <p>JavaScript</p>
+        </div>
+
+        <div className="skills-wrapper-js" >
+        <div className="skills-percent-js" style={{width:"85%"}}></div>
+
+
+
+
+         
+       
+          </div>
         </div>
       </div>
     </div>

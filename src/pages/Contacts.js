@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import emailjs from "emailjs-com"
 import "../pages/projcont.css";
+import { IoChevronBackSharp } from "react-icons/io5";
 
 
 const Contacts = () => {
@@ -101,6 +102,7 @@ const Contacts = () => {
   return (
     
     <div className="container_home" id="container_contacts">
+      <a  href="./" ><button className="back_home" ><IoChevronBackSharp className="back_to_home_icon" />Back</button></a>
       <h2 className="contact_hd">Contact me</h2>
 
       <form  ref={form} onSubmit={sendEmail}>
@@ -118,10 +120,10 @@ const Contacts = () => {
       <div className="footer">
         <ul className="ul_pages">
           <p>Pages</p>
-          <li className="li_pages" onClick={handleClickScroll}>
+          <a href="./" ><li className="li_pages"  onClick={handleClickScroll}>
             {" "}
             Home{" "}
-          </li>
+          </li></a>
           <li className="li_pages" onClick={handleClickScroll2}>
             {" "}
             About{" "}
@@ -164,7 +166,7 @@ const Contacts = () => {
           </li>
         </ul>
 
-        <p className="copyright"> &copy;Copyright Shaline </p>
+        <p className="copyright"> &copy;Copyright Michael </p>
       </div>
      
     </div>

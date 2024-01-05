@@ -51,28 +51,20 @@ export default function Experience() {
 <div className="first_work">
 <small className="small_work">
           <ul>
-            <li className="list"> Safaricom: Internship (2017-2018)</li>
-            <p style={{ color: "grey", fontStyle: "italic", width: "20rem" }}>
+            <li className="list"> Huawei CCNA</li>
+            <p style={{ color: "grey", fontStyle: "italic", width: "25rem" }}>
               {" "}
-              Worked with different groups such as Microsoft and Oracle
-              Companies.
+             Done short course on security on Huawei CCNA
             </p>
             <br />
 
-            <li className="list"> Microsoft: Software Testing (2018-2021)</li>
-            <p style={{ color: "grey", fontStyle: "italic", width: "20rem" }}>
+            <li className="list"> CISCO KENYA</li>
+            <p style={{ color: "grey", fontStyle: "italic", width: "25rem" }}>
               {" "}
-              Worked in the Software Testing Team.
+              Attended CISCO functions in Kenyatta University and Nairobi University.
             </p>
             <br />
-            <li className="list">
-              {" "}
-              Oracle: Software Assuarance and Testing (2021- )
-            </li>
-            <p style={{ color: "grey", fontStyle: "italic", width: "20rem" }}>
-              {" "}
-              Works as Software Tester.
-            </p>
+            
           </ul>
         </small>
 </div>

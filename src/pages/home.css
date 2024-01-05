@@ -18,7 +18,7 @@
 }
 .nav-ul {
   position: absolute;
-  background-color: aqua;
+ 
   top: 3rem;
   width: 10rem;
   flex-direction: column;
@@ -79,6 +79,7 @@
     width: 100%;
     opacity: 0.8;
    
+   
   }
 
   .nav-li {
@@ -90,6 +91,7 @@
     opacity: 0.5;
     color: white;
     cursor: pointer;
+    display: none;
   }
   .nav-li:hover {
     position: relative;
@@ -100,6 +102,7 @@
     display: flex;
     justify-content: center;
     transition: 0.9s ease-in-out;
+   display: none;
   }
 }
 
@@ -167,13 +170,13 @@
   position: absolute;
   top: 40rem;
   left: 11rem;
-  padding: 5px;
-  border-radius: 2px;
+  padding: 8px;
+  border: none;
   font-size: 16px;
   border: none;
-  width: 6rem;
-  background-color: rgb(17, 16, 16);
-  color: white;
+  width: 8rem;
+ 
+  
 }
 .pic_home {
   object-fit: cover;
@@ -205,6 +208,17 @@
     width: 110%; 
      position: absolute;
      background: #23252f;
+  }
+  .my_name{
+    position: fixed;
+    left: 2rem;
+    top: 1rem;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    
+
+
   }
   .github {
     position: fixed;
@@ -261,9 +275,10 @@
     font-size: 20px;
   }
   .resume {
-    position: absolute;
-    top: 28rem;
-    left: 10rem;
+    position: fixed;
+    top: 1rem;
+    left:68rem;
+    
   }
   .resume:hover {
     opacity: .7;
@@ -272,11 +287,24 @@
   .hireme {
     position: absolute;
     top: 28rem;
-    left: 18rem;
+    left: 10rem;
+    width: 10rem;
+    display: flex;
+    background: #23252f;
+    color: white;
+    border: .9px solid white;
+
   }
+  .send_home_icon{
+    position: absolute;
+    right: 1rem;
+  }
+
   .hireme:hover {
+    background-color: #ddd;
     opacity: .7;
     transition: 0.1s ease-in-out;
+    color: #222;
   }
   .pic_home {
     top: 5rem;

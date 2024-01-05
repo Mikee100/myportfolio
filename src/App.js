@@ -23,7 +23,7 @@ import Projects from './pages/Projects';
 
 
  <Routes>
-   <Route path="/home" element={<Home /> }/>
+   <Route path="/" element={<Home /> }/>
     <Route path="navbar" element={<Navbar />} />
     <Route path="about" element={<About />}/>
     <Route path="experience" element={<Experience />} />

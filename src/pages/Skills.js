@@ -28,7 +28,7 @@ function Skills() {
         </li>
         <li>
           {" "}
-          <FaVuejs className="fa" /> <p className="p1">VUE</p>{" "}
+          <FaVuejs className="fa" /> <p className="p1">VITE</p>{" "}
         </li>
         <li>
           <FaReact className="fa" /> <p className="p2">REACT</p>{" "}

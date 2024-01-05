@@ -93,7 +93,7 @@
   .project_3 {
     position: absolute;
     box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
-    height: 23rem;
+    height: 25rem;
    
     width: 24rem;
     top: 58rem;
@@ -109,10 +109,20 @@
   
   @media (min-width: 1024px) {
     .container_project {
-      height: 85rem;
+      height: 107rem;
       width: 100%;
       top: 175rem;
       background: #23252f;
+    }
+    .about_the_project{
+      position: absolute;
+      top:2rem;
+      left:31rem;
+      color: white;
+      font-size: 1.4rem;
+    }
+    .project_name{
+      color: white;
     }
     .project_hd {
       position: absolute;
@@ -136,12 +146,53 @@
       left: 5rem;
     }
     .project_3 {
-      height: 23rem;
+      height: 25rem;
      
       width: 65rem;
       top: 60rem;
       left: 5rem;
     }
+    .footer_projects{
+      position:absolute ;
+      background-color: white;
+      height: 20rem;
+      width: 100%;
+      bottom: 0;
+    }
+    .copyright_project{
+      position: absolute;
+      
+      bottom:0rem ;
+      left: 40rem;
+    }
+    .btn_send_message{
+      position: absolute;
+      right: 15rem;
+      padding: 10px;
+      background-color: #ada8a8;
+      border: none;
+      top: 3rem;
+      cursor: pointer;
+      width: 8rem;
+      display: flex;
+
+
+    }
+    .btn_send_message:hover{
+      background-color: aliceblue;
+    }
+    .send_icon{
+      position: absolute;
+      top:.6rem;
+    right: .17rem;
+    font-size: 1rem;
+    }
+    .mynumber{
+      position: absolute;
+      right: 15rem;
+      top:8rem;
+    }
+  
   }
   
   /***************Contacts Section********************/
@@ -304,10 +355,37 @@
       top: 10rem;
       background: #23252f;
     }
+    .back_home{
+      position: absolute;
+      top: 10rem;
+      padding:5px ;
+      left: 3rem;
+      width: 5rem;
+      border: none;
+      background: #23252f;
+      display: flexbox;
+      font-size: 1rem;
+      color: white;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .back_home:hover{
+      background-color: aliceblue;
+      color: #23252f;
+    }
+    .back_to_home_icon{
+      position: absolute;
+      left: .2rem;
+      top: .4rem;
+      font-size: 1.1rem;
+
+
+
+    }
     .contact_hd {
       position: absolute;
       font-size: 32px;
-      top: 1rem;
+      top: 5rem;
       left: 5rem;
       color: grey;
     }
