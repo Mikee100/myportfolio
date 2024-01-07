@@ -4,7 +4,7 @@
       width: 250px;
       height: 250px;
       left: 3rem;
-      top: 2rem;
+      top: 1rem;
       position: relative;
       display: flex;
       justify-content: center;
@@ -17,6 +17,7 @@
         align-items: center;
         height: 50px;
         left: 0rem;
+     
 
         
         .block {
@@ -26,13 +27,14 @@
           position: absolute;
           animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
           display: flex;
+          font-size: 1.4rem;
           
         }
   
         h1 {
           font-family: "Poppins";
           color: #fff;
-          font-size: 32px;
+          font-size: 50px;
           -webkit-animation: mainFadeIn 2s forwards;
           -o-animation: mainFadeIn 2s forwards;
           animation: mainFadeIn 2s forwards;
@@ -41,6 +43,7 @@
           display: flex;
           align-items: baseline;
           position: relative;
+          
   
           span {
             width: 0px;
@@ -64,12 +67,12 @@
       }
   
       .role {
-        width: 100%;
+        width: 110%;
         position: relative;
         display: flex;
         align-items: center;
         height: 50px;
-        top: 0rem;
+        top: 1rem;
         left: 0rem;
         .block {
           width: 0%;
@@ -88,7 +91,7 @@
           font-weight: 400;
           font-family: "Lato";
           color: #ffffff;
-          font-size: 12px;
+          font-size: 20px;
           text-transform: uppercase;
           letter-spacing: 5px;
         }

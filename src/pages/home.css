@@ -18,7 +18,7 @@
 }
 .nav-ul {
   position: absolute;
- 
+
   top: 3rem;
   width: 10rem;
   flex-direction: column;
@@ -78,8 +78,6 @@
     color: white;
     width: 100%;
     opacity: 0.8;
-   
-   
   }
 
   .nav-li {
@@ -102,21 +100,18 @@
     display: flex;
     justify-content: center;
     transition: 0.9s ease-in-out;
-   display: none;
+    display: none;
   }
 }
 
 /*** Home Section **/
 
-
 .container_home {
-  height: 42rem;
+  height: 59rem;
   width: 100%;
 
   position: absolute;
-  background-color: white;
- 
- 
+  background: #23252f;
 }
 .github {
   position: fixed;
@@ -156,7 +151,7 @@
 
 .resume {
   position: absolute;
-  top: 40rem;
+  top: 18rem;
   left: 3rem;
   padding: 5px;
   border-radius: 2px;
@@ -168,32 +163,36 @@
 }
 .hireme {
   position: absolute;
-  top: 40rem;
+  display: flex;
+  top: 18rem;
   left: 11rem;
   padding: 8px;
   border: none;
   font-size: 16px;
   border: none;
-  width: 8rem;
- 
-  
+  width: 10rem;
+}
+.send_home_icon{
+  position: absolute;
+  right: 1rem;
+  top:.5rem;
+
 }
 .pic_home {
   object-fit: cover;
-  top: 10rem;
+  top: 22rem;
   left: 2.5rem;
-  height: 30%;
+  height: 55%;
   width: 70%;
   position: absolute;
-  border-radius: 100%;
 }
 .media_icons_home {
   position: absolute;
   display: flex;
   flex-direction: row;
   list-style-type: none;
-
-  top: 10rem;
+  left: -2rem;
+  top: 13rem;
   width: 11rem;
 }
 .media_icons_home li {
@@ -205,20 +204,17 @@
 @media (min-width: 600px) {
   .container_home {
     z-index: -1;
-    width: 110%; 
-     position: absolute;
-     background: #23252f;
+    width: 110%;
+    position: absolute;
+    background: #23252f;
   }
-  .my_name{
+  .my_name {
     position: fixed;
     left: 2rem;
     top: 1rem;
     color: white;
     border-radius: 6px;
     cursor: pointer;
-    
-
-
   }
   .github {
     position: fixed;
@@ -277,11 +273,10 @@
   .resume {
     position: fixed;
     top: 1rem;
-    left:68rem;
-    
+    left: 68rem;
   }
   .resume:hover {
-    opacity: .7;
+    opacity: 0.7;
     transition: 0.9s ease-in-out;
   }
   .hireme {
@@ -292,24 +287,23 @@
     display: flex;
     background: #23252f;
     color: white;
-    border: .9px solid white;
-
+    border: 0.9px solid white;
   }
-  .send_home_icon{
+  .send_home_icon {
     position: absolute;
     right: 1rem;
   }
 
   .hireme:hover {
     background-color: #ddd;
-    opacity: .7;
+    opacity: 0.7;
     transition: 0.1s ease-in-out;
     color: #222;
   }
   .pic_home {
     top: 5rem;
     left: 40rem;
-    height: 70%;
+    height: 50%;
     width: 30%;
     position: absolute;
     border-radius: 10px;

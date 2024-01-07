@@ -33,8 +33,9 @@ export default function About() {
             innovative solutions to complex problems and delivering high-quality
             results that surpass expectations.{" "}
           </p>
-          <h1 >  Interests</h1>
+          <h1 className="h1_interests" >  Interests</h1>
           <ul className="interests_list" >
+            
           <li tyle={{ textDecoration: 'none'}} ><IoBookSharp />Web development</li>
           <li tyle={{ textDecoration: 'none'}} ><IoBookSharp />System development</li>
           <li tyle={{ textDecoration: 'none'}} ><IoBookSharp />Artificial intelligence</li>

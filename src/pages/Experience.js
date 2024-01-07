@@ -37,10 +37,11 @@ export default function Experience() {
 <div className="second_box">
 
   <small className="small_list_uni">
-        University:
+        <p className="p_university" >University:</p>
         <ul>
           <li>Kenyatta University(2012-2016) </li>
           <p>Bachelors Degree in Computer Science</p>
+          <li>Huawei security CCNA</li>
         </ul>
       </small>
 

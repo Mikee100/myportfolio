@@ -1,8 +1,7 @@
 import React, {useState} from "react";
 import { FaGithub } from "react-icons/fa";
 import "./home.css"
-import {FaBars} from "react-icons/fa"
-import {FaTimes} from "react-icons/fa"
+
 import { Link } from "react-router-dom";
 export default function Navbar(){
   const[Mobile, setMobile] = useState(false)
@@ -51,9 +50,7 @@ element.scrollIntoView({ block: "end" });
         }
       };
       
-      const openResume = () => {
-        window.open("/images/MICHAEL WAWERU.pdf");
-      };
+   
     
 
     return(
@@ -75,12 +72,7 @@ element.scrollIntoView({ block: "end" });
 <Link to="./Skills"><li className="nav-li"  onClick={handleClickScroll5}>Skills</li></Link>
 
     </ul>
-    <button className='bars' onClick={() => setMobile(!Mobile)} >
-          {Mobile ? <FaTimes/> : <FaBars  />}</button>
-          <button className="resume" onClick={openResume} target="blank">
-        {" "}
-        Resume
-      </button>
+   
       <h1  ><a className="my_name" href="/" >MW</a ></h1>
         </div>
 

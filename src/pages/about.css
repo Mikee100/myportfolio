@@ -2,13 +2,14 @@
 .container_about {
     height: 61rem;
     width: 100%;
-    top: 42rem;
-    background-color: white;
+    top: 59rem;
+    background: #3b3f4d;
     display: flex;
     position: absolute;
     align-items: center;
     justify-content: center;
     display: flex;
+
    
   }
   .list_icons {
@@ -38,7 +39,7 @@
   }
   .about_desc {
     position: absolute;
-    top: 33rem;
+    top: 3rem;
     left: 0rem;
     height: 27rem;
     width: 24rem;
@@ -59,7 +60,7 @@
   .myabout_desc {
     height: 20rem;
     width: 21rem;
-    top: 6rem;
+    top: 5rem;
     left: 2rem;
     font-size: 19px;
     position: absolute;
@@ -84,6 +85,99 @@
     position: absolute;
    
   }
+  .interests_list{
+    position: absolute;
+    top: 25rem;
+   
+
+  }
+  
+ 
+  .java_language{
+    position: absolute;
+    top: 32rem;
+  }
+  .java_language p{
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+  }
+  .java_icon{
+    position: absolute;
+    top: 3rem;
+  }
+  .skills-wrapper{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 10px;
+    border: 1px solid #a8e9e9;
+    border-radius: 10px;
+    top: 14rem;
+  }
+  .skills-percent {
+    position: absolute;
+    width: 60%;
+    height: 10px;
+    background-color: #3cb5b5;
+}
+.sql_language {
+  position: absolute;
+  top:40rem;
+ 
+}
+.sql_language p{
+  position: absolute;
+  top:0rem;
+  left: 2rem;
+}
+.sql_icon{
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+
+}
+.skills-wrapper-sql{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 10px;
+  border: 1px solid #a8e9e9;
+  border-radius: 10px;
+  top: 18rem;
+}
+.skills-percent-sql {
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  background-color: #3cb5b5;
+}
+.js_language{
+  position: absolute;
+  top: 45rem;
+}
+.js_language p{
+  position: absolute;
+  top: 0rem;
+  left: 2rem;
+}
+
+.skills-wrapper-js{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 10px;
+  border: 1px solid #a8e9e9;
+  border-radius: 10px;
+  top: 23rem;
+}
+.skills-percent-js {
+  position: absolute;
+  width: 80%;
+  height: 10px;
+  background-color: #3cb5b5;
+}
+  
   
   @media (min-width: 600px) {
     .container_about {

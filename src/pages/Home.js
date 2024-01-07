@@ -10,9 +10,12 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
 
+
 export default function Home() {
 
-
+  const openResume = () => {
+    window.open("/images/MICHAEL WAWERU.pdf");
+  };
  
  
   return (
@@ -59,7 +62,7 @@ export default function Home() {
               {" "}
               <a
                 target="blank"
-                href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA=="
+                href="https://www.instagram.com/wawe.r.u__/"
               >
                 {" "}
                 <FaInstagram className="faicon" />
@@ -67,7 +70,7 @@ export default function Home() {
             </li>
             <li>
               {" "}
-              <a target="blank" href="https://github.com/Mikee100/utilitybank">
+              <a target="blank" href="https://github.com/Mikee100">
                 <FaGithub className="faicon" />
               </a>
             </li>
@@ -75,7 +78,7 @@ export default function Home() {
               {" "}
               <a
                 target="blank"
-                href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/michael-waweru-b279031b6/"
               >
                 {" "}
                 <FaLinkedin className="faicon" />
@@ -84,6 +87,11 @@ export default function Home() {
           </ul>
         </div>
       </div>
+    
+          <button className="resume" onClick={openResume} target="blank">
+        {" "}
+        Resume
+      </button>
     </div>
   );
 }
