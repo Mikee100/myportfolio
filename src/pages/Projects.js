@@ -64,10 +64,9 @@ export default function Projects() {
 <div className='project_1'   >
  
  <a href='https://euphonious-frangollo-60c044.netlify.app' target='blank' >
-    <img src='/images/netflix.jfif' className='bank1'  alt=''  /> 
+    <img src='/images/netflix.png' className='bankpic1'  alt=''  /> 
 
-
-    <p className='yr' >2020</p>
+    
     <p className='project_name' >Netflix Clone</p>
 
     <p className='about_the_project' > 
@@ -83,10 +82,10 @@ export default function Projects() {
 <div className='project_2' >
  
  <a href='https://relaxed-pasca-8a9b74.netlify.app' target='blank' >
-    <img src='/images/bank2.jpg' className='bankpic1'  alt=''  /> 
+    <img src='/images/mathu_business.png' className='bankpic1'  alt=''  /> 
 
 
-    <p className='yr' >2022</p>
+  
     <p className='project_name' > E-Commerce Website </p>
     <p className='about_the_project' > 
     <li>Developed a single page website using React.Js, Node.js, and Firebase files for purchasing clothes and shoes</li>
@@ -104,7 +103,7 @@ export default function Projects() {
  <a href='https://github.com/Mikee100/mwanzobarakasystem' target='blank' >
     <img src='/images/bank3.jpg' className='bankpic1'  alt=''  /> 
 
-    <p className='yr' >2023</p>
+   
     <p className='project_name' >Mwanzo Baraka System </p>
     <p className='about_the_project' > 
     <li>Developed using multiple system pages with multiple functionalities. </li>
@@ -148,20 +147,20 @@ export default function Projects() {
           <p>Socials</p>
           <li>
             {" "}
-            <a target="blank" href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA==">
+            <a target="blank" href="https://www.instagram.com/wawe.r.u__/">
               {" "}
               <FaInstagram className="faicon" />
             </a>
           </li>
           <li>
             {" "}
-            <a target="blank" href="https://github.com/Mikee100/utilitybank">
+            <a target="blank" href="https://github.com/Mikee100">
               <FaGithub className="faicon" />
             </a>
           </li>
           <li>
             {" "}
-            <a target="blank" href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <a target="blank" href="https://www.linkedin.com/in/michael-waweru-b279031b6/">
               {" "}
               <FaLinkedin className="faicon" />
             </a>{" "}

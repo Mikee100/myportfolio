@@ -113,7 +113,7 @@
     height: 10px;
     border: 1px solid #a8e9e9;
     border-radius: 10px;
-    top: 14rem;
+    top: 16.5rem;
   }
   .skills-percent {
     position: absolute;
@@ -144,7 +144,7 @@
   height: 10px;
   border: 1px solid #a8e9e9;
   border-radius: 10px;
-  top: 18rem;
+  top: 20.5rem;
 }
 .skills-percent-sql {
   position: absolute;
@@ -169,7 +169,7 @@
   height: 10px;
   border: 1px solid #a8e9e9;
   border-radius: 10px;
-  top: 23rem;
+  top: 25.5rem;
 }
 .skills-percent-js {
   position: absolute;

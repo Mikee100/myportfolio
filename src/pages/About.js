@@ -23,15 +23,10 @@ export default function About() {
         <div className="myabout_desc">
           <p>
             {" "}
-            As a project management student with a passion for technology,
-            particularly in software development, I am continuously seeking new
-            challenges to expand my skill set. My expertise in organizing and
-            executing projects from start to finish has enabled me to excel in
-            various roles. 💻 Additionally, as a self-taught front-end
-            developer, I am dedicated to staying up to date with the latest
-            technology and software development trends. I thrive on finding
-            innovative solutions to complex problems and delivering high-quality
-            results that surpass expectations.{" "}
+            Enthusiastic and diligent Computer Science student with a passion for leveraging technology to solve complex problems. 
+            Currently pursuing a Bachelor's degree in Computer Science at Kenyatta University with a strong foundation in Data Structures, 
+            Algorithms Programming, and Dynamic Programming. Eager to apply theoretical knowledge gained through coursework in real-world settings, 
+            contributing innovative solutions to the ever-evolving field of technology.{" "}
           </p>
           <h1 className="h1_interests" >  Interests</h1>
           <ul className="interests_list" >

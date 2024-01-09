@@ -120,10 +120,10 @@ const Contacts = () => {
       <div className="footer">
         <ul className="ul_pages">
           <p>Pages</p>
-          <a href="./" ><li className="li_pages"  onClick={handleClickScroll}>
+          <li className="li_pages"  onClick={handleClickScroll}>
             {" "}
             Home{" "}
-          </li></a>
+          </li>
           <li className="li_pages" onClick={handleClickScroll2}>
             {" "}
             About{" "}
@@ -146,20 +146,20 @@ const Contacts = () => {
           <p>Socials</p>
           <li>
             {" "}
-            <a target="blank" href="https://instagram.com/sharquiz_?igshid=OGQ5ZDc2ODk2ZA==">
+            <a target="blank" href="https://www.instagram.com/wawe.r.u__/">
               {" "}
               <FaInstagram className="faicon" />
             </a>
           </li>
           <li>
             {" "}
-            <a target="blank" href="https://github.com/Mikee100/utilitybank">
+            <a target="blank" href="https://github.com/Mikee100">
               <FaGithub className="faicon" />
             </a>
           </li>
           <li>
             {" "}
-            <a target="blank" href="https://www.linkedin.com/in/shaline-richard33?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <a target="blank" href="https://www.linkedin.com/in/michael-waweru-b279031b6/">
               {" "}
               <FaLinkedin className="faicon" />
             </a>{" "}

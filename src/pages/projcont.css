@@ -18,14 +18,14 @@
     font-size: 31px;
     left: 10rem;
   }
-  .bankpic1 {
+  .bank1 {
     position: absolute;
     max-width: 92%;
     min-height: 72%;
     top: 1rem;
     left: 1rem;
   }
-  .bank1 {
+  .bankpic1 {
     position: absolute;
     max-width: 92%;
     min-height: 72%;
@@ -52,21 +52,7 @@
     padding: 10px;
     box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px 20px;
   }
-  .yr {
-    position: absolute;
-    top: 17rem;
-    left: 10rem;
-    border: 2px solid grey;
-    height: 1.8rem;
-    width: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: grey;
-    border-radius: 5px;
-    font-size: 17px;
-  }
+
   .project_name {
     position: absolute;
     top: 19.5rem;
@@ -145,7 +131,7 @@
   
   @media (min-width: 1024px) {
     .container_project {
-      height: 107rem;
+      height: 105rem;
       width: 100%;
       top: 175rem;
       background: #23252f;
@@ -159,6 +145,9 @@
     }
     .project_name{
       color: white;
+      position: absolute;
+      top:20rem;
+      left: 50rem;
     }
     .project_hd {
       position: absolute;
@@ -175,7 +164,7 @@
       left: 5rem;
     }
     .project_2 {
-      height: 23rem;
+      height: 30rem;
      
       width: 65rem;
       top: 31rem;
@@ -188,12 +177,19 @@
       top: 60rem;
       left: 5rem;
     }
+    .bankpic1 {
+      position: absolute;
+      max-width: 70%;
+     
+      top: 1rem;
+      left: 1rem;
+    }
     .footer_projects{
       position:absolute ;
       background-color: white;
       height: 20rem;
       width: 100%;
-      bottom: 0;
+      bottom: 0rem;
     }
     .copyright_project{
       position: absolute;
@@ -470,7 +466,7 @@
     .footer {
       position: absolute;
       top: 40rem;
-  
+  background-color: white;
       width: 100%;
       height: 17rem;
     }

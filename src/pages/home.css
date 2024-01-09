@@ -271,9 +271,9 @@
     font-size: 20px;
   }
   .resume {
-    position: fixed;
-    top: 1rem;
-    left: 68rem;
+    position: absolute;
+    top: 28rem;
+    left: 25rem;
   }
   .resume:hover {
     opacity: 0.7;

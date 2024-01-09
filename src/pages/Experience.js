@@ -53,14 +53,14 @@ export default function Experience() {
 <small className="small_work">
           <ul>
             <li className="list"> Huawei CCNA</li>
-            <p style={{ color: "grey", fontStyle: "italic", width: "25rem" }}>
+            <p style={{ color: "grey", fontStyle: "italic", width: "21rem" }}>
               {" "}
              Done short course on security on Huawei CCNA
             </p>
             <br />
 
             <li className="list"> CISCO KENYA</li>
-            <p style={{ color: "grey", fontStyle: "italic", width: "25rem" }}>
+            <p style={{ color: "grey", fontStyle: "italic", width: "21rem" }}>
               {" "}
               Attended CISCO functions in Kenyatta University and Nairobi University.
             </p>
